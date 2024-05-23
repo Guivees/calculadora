@@ -1,0 +1,81 @@
+body{
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color: #fff;
+    margin: 0;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calculadora{
+    width: 300px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #333; 
+}
+
+.numerozerado{
+    background-color: #000;
+    color: #fff;
+    font-size: 3em;
+    padding: 20px;
+    text-align: right;
+    border: #fff;
+    border-radius: 30px 30px 0px 0px;
+    margin-bottom: 4%;
+    border-bottom: 1px solid #444;
+}
+
+.butoes{
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+    margin: 10px;
+}
+
+.butao{
+    padding: 15px;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #505050;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.butaocinza{
+    color: #000;
+    background-color: #a6a6a6;
+    transition: 0.5s;
+}
+
+.butaolaranja{
+    color: white;
+    background-color: #ff9500;
+    transition: 0.5s;
+}
+
+.muitomaior{
+    border-radius: 60px;
+    grid-row: span 3;
+}
+
+.maior{
+    border-radius: 60px;
+    grid-column: span 2;
+}
+
+.butao:hover{
+    background: rgba(221, 219, 219, 0.3);
+}
+
+.butaocinza:hover{
+    background: rgba(204, 204, 204, 0.3);
+}
+
+.butaolaranja:hover{
+    background: rgba(182, 106, 0, 0.3);
+}
